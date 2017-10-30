@@ -20,6 +20,7 @@ This chapter gives details on how to customize existing UI to fit your customer'
     guides/create_a_reference_data_crud
     guides/add_new_page
     guides/how_to_customize_menu
+    guides/how_to_customize_styles
 
 .. toctree::
     :maxdepth: 2

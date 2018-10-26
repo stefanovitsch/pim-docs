@@ -5,17 +5,31 @@ Create a new Reference Entity Attribute type
 
    Reference Entities feature is only available for the **Enterprise Edition**.
 
+This cookbook will present you how to create your own Attribute Type for Reference Entities.
+Currently, there are 6 types of Attribute for Reference Entities:
 
-This cookbook assumes that you already created a new bundle to add your custom rule. Let's assume its namespace is ``Acme\\CustomBundle``.
+- Text
+- Image
+- Record (*Link Record to another Record*)
+- Record Collection (*Link Record to several Records*)
+- Option
+- Option Collection
 
-Attribute creation part:
+Requirements
+------------
+
+During this chapter, we assume that you already created a new bundle to add your custom Reference Entity Attribute. Let's assume its namespace is ``Acme\\CustomBundle``.
+
+Create the Attribute
+--------------------
+
 - Domain Attribute
 - Application Attribute (Create / Edit)
 - Infra Attribute (Validation, Hydrator)
 
-Record enrichement part:
+Enrich Records with your new Attribute
+--------------------------------------
+
 - Domain Record (Data of the Value)
 - Application Record (Edit)
 - Infra Record (Validation, Hydrator)
-
-TODO

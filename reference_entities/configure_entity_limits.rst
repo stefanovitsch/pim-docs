@@ -33,6 +33,19 @@ If you want to create more, you have to edit the ``reference_entity_maximum_attr
     parameters:
         reference_entity_maximum_attribute: 130
 
+Raise the limit of Options per List Attribute
+---------------------------------------------
+By default, you can't create more than **100** **Options per List Attribute**.
+If you want to create more, you have to edit the ``reference_entity_option_limit_per_list_attribute`` parameter, for example:
+
+.. code-block:: yaml
+    :linenos:
+
+    # app/config/parameters.yml
+    parameters:
+        reference_entity_option_limit_per_list_attribute: 200
+
+
 Raise the limit of Records per Reference Entity
 -----------------------------------------------
 By default, you can't create more than **1 000 000** (*one million*) **Records per Reference Entity**.

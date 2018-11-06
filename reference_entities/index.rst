@@ -6,7 +6,7 @@ Reference Entities
    Reference Entities feature is only available for the **Enterprise Edition**.
 
 This part of the documentation is about the Reference Entities feature.
-Reference Entities are objects, living around the products, with their own lifecycle.
+Reference entities are objects related to products with their own attributes and lifecycle (ie. brands, ranges, manufacturers, colors, materials, care instructions...).
 
 .. toctree::
     :maxdepth: 2

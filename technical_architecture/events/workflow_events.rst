@@ -33,11 +33,11 @@ This event is dispatched **after** a product has been published.
 
 **Built-in PIM subscribers registered to this event**
 
-===========================================================================================================  ===============
-Listener Class Name                                                                                          Priority
-===========================================================================================================  ===============
-``Akeneo\Pim\WorkOrganization\Workflow\Bundle\EventSubscriber\PublishedProduct\DetachProductPostPublishSubscriber``  0
-===========================================================================================================  ===============
+====================================================================================================================  ===============
+Listener Class Name                                                                                                    Priority
+====================================================================================================================  ===============
+``Akeneo\Pim\WorkOrganization\Workflow\Bundle\EventSubscriber\PublishedProduct\DetachProductPostPublishSubscriber``    0
+====================================================================================================================  ===============
 
 ``pimee_workflow.published_product.pre_unpublish``
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -111,11 +111,11 @@ The product draft now becomes a proposal, **ready to be reviewed**.
 
 **Built-in PIM subscribers registered to this event**
 
-==============================================================================================  ===============
-Listener Class Name                                                                             Priority
-==============================================================================================  ===============
-``Akeneo\Pim\WorkOrganization\Workflow\Bundle\EventSubscriber\ProductDraft\SendForApprovalSubscriber``  0
-==============================================================================================  ===============
+=======================================================================================================  ===============
+Listener Class Name                                                                                       Priority
+=======================================================================================================  ===============
+``Akeneo\Pim\WorkOrganization\Workflow\Bundle\EventSubscriber\ProductDraft\SendForApprovalSubscriber``    0
+=======================================================================================================  ===============
 
 ``pimee_workflow.product_draft.pre_approve``
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
